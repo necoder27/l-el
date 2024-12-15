@@ -1,0 +1,23 @@
+<template>
+  <RouterLink class="flex justify-center px-0.5 w-15 hover:text-gray-500 transition-all duration-300 ease-in-out"
+              :to="`/${text}`"
+              @click="changePage(text)"
+  >
+    {{ text }}
+  </RouterLink>
+</template>
+
+<script setup lang="ts">
+  import type {PageContext} from "@/interfaces/pageContext.interface.ts";
+  import {inject} from "vue";
+
+  defineProps<{
+    text: string;
+  }>();
+
+  const { selectedPage, changePage } = inject<PageContext>("selectedPage")!;
+</script>
+
+<style scoped>
+
+</style>
