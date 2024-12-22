@@ -7,8 +7,8 @@
 
 <script setup lang="ts">
 
-import SkillsShowcase from "@/components/HomePage/SkillsShowcase.vue";
-import Description from "@/components/HomePage/Description.vue";
+import SkillsShowcase from "@/components/AboutPage/SkillsShowcase.vue";
+import Description from "@/components/AboutPage/Description.vue";
 </script>
 
 <style scoped>

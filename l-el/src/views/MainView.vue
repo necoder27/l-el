@@ -8,7 +8,6 @@
 
 <script setup lang="ts">
   import LandingPage from "@/components/HomePage/LandingPage.vue";
-  import About from "@/components/HomePage/About.vue";
 </script>
 
 <style scoped>
