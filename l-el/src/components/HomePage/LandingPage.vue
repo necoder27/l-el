@@ -5,7 +5,7 @@
       <LandingPageDivider />
       <LandingPageLink text="projects" />
       <LandingPageDivider />
-      <LandingPageLink text="cv" />
+      <LandingPageLink text="about" />
       <LandingPageDivider />
       <LandingPageLink text="cat" />
       <LandingPageDivider />
