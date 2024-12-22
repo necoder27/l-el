@@ -8,14 +8,14 @@
 </template>
 
 <script setup lang="ts">
-  import type {PageContext} from "@/interfaces/pageContext.interface.ts";
+  import type {IPageContext} from "@/interfaces/pageContext.interface.ts";
   import {inject} from "vue";
 
   defineProps<{
     text: string;
   }>();
 
-  const { selectedPage, changePage } = inject<PageContext>("selectedPage")!;
+  const { selectedPage, changePage } = inject<IPageContext>("selectedPage")!;
 </script>
 
 <style scoped>
