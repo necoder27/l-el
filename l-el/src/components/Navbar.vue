@@ -7,7 +7,7 @@
       <div class="flex flex-row items-center justify-between w-3/4 lg:w-2/4 px-5 lg:px-12 text-[2vh] lg:text-3xl">
         <NavbarLink to="/" text="home" />
         <NavbarLink to="/projects" text="projects" />
-        <NavbarLink to="/" text="about" />
+        <NavbarLink to="/about" text="about" />
         <NavbarLink to="/cat" text="cat" />
       </div>
     </div>

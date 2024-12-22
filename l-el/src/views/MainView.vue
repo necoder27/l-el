@@ -1,9 +1,8 @@
 <template>
-  <div class="flex flex-col overflow-y-auto overflow-x-hidden">
+  <div class="flex flex-col overflow-y-hidden overflow-x-hidden">
     <div class="h-screen">
       <LandingPage />
     </div>
-    <About />
   </div>
 </template>
 
