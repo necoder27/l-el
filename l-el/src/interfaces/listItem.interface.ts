@@ -1,7 +1,6 @@
-export interface ListItem {
-  id: number;
+export interface IListItem {
   name: string;
-  specification: string[];
-  start: string;
-  end: string;
+  specification?: string[];
+  start?: string;
+  end?: string;
 }
