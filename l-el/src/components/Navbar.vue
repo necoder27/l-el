@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="flex flex-row h-10 w-screen select-none top-0 py-12 text-2xl fixed bg-[#1e1e1e]/75 backdrop-blur-md">
-      <div class="w-2/3 flex flex-row items-center px-12">
-        Laetitia El Badry
+      <div class="w-1/4 lg:w-2/3 text-[2vh] lg:text-3xl leading-snug flex flex-col lg:flex-row justify-center lg:items-center lg:justify-normal px-5 lg:px-12">
+        Laetitia&nbsp;<span class="text-nowrap">El Badry</span>
       </div>
-      <div class="flex flex-row items-center justify-between w-2/4 px-12">
+      <div class="flex flex-row items-center justify-between w-3/4 lg:w-2/4 px-5 lg:px-12 text-[2vh] lg:text-3xl">
         <NavbarLink to="/" text="home" />
         <NavbarLink to="/projects" text="projects" />
         <NavbarLink to="/" text="about" />

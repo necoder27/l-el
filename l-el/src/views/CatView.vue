@@ -1,11 +1,12 @@
 <template>
   <div class="flex flex-col items-center justify-center w-screen my-4">
-    <span class="text-5xl select-none">
-      <strong>Mistoffelees</strong>
+    <span class="text-5xl select-none px-10">
+      hi, i'm
+      <strong>Mistoffelees</strong>!
     </span>
     <div class="flex flex-wrap m-8 select-none justify-between">
       <div v-for="img in imgPaths">
-        <img :src="img.path" :alt="img.altText" class="max-h-80 my-4 rounded-xl shadow-lg shadow-black" />
+        <img :src="img.path" :alt="img.altText" class="lg:max-h-80 my-4 rounded-sm shadow-lg shadow-[#171717]" />
       </div>
     </div>
   </div>

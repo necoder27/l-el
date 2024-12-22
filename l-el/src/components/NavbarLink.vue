@@ -6,8 +6,8 @@
       </span>
       {{ text }}
     </RouterLink>
-    <span v-if="selectedPage != text" class="block max-w-0 h-0.5 bg-white transition-all ease-in-out duration-300"></span>
-    <!--<span v-else class="block max-w-full h-0.5 bg-white"></span>     + add group-hover:max-w-full above -->
+    <!-- <span v-if="selectedPage != text" class="block max-w-0 h-0.5 group-hover:max-w-full bg-white transition-all ease-in-out duration-300"></span> -->
+    <!--<span v-else class="block max-w-full h-0.5 bg-white"></span> -->
   </div>
 </template>
 

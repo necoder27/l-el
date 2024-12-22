@@ -3,7 +3,6 @@
     <div class="h-screen">
       <LandingPage />
     </div>
-
     <About />
   </div>
 </template>
