@@ -22,6 +22,9 @@
   import catSleepingOnFloor from "@/assets/imgs/catImgs/catSleepingOnFloor.jpeg";
   import catLookingOutWindow from "@/assets/imgs/catImgs/catLookingOutWindow.jpeg";
   import perfectBall from "@/assets/imgs/catImgs/perfectBallCat.jpeg";
+  import cutestCat from "@/assets/imgs/catImgs/cutestCat.jpeg";
+  import catSideProfile from "@/assets/imgs/catImgs/catSideProfile.jpeg";
+  import sleepyCat from "@/assets/imgs/catImgs/sleepyCat.jpeg";
 
   interface paths {
     path: string;
@@ -38,6 +41,9 @@
     { path: catSleepingOnFloor, altText: "cat snoozing on the floor" },
     { path: catLookingOutWindow, altText: "cat looking out of a window" },
     { path: perfectBall, altText: "ball of cat" },
+    { path: cutestCat, altText: "cat cutely looking at camera"},
+    { path: catSideProfile, altText: "cat side profile" },
+    { path: sleepyCat, altText: "sleepy cat" },
   ]
 </script>
 
