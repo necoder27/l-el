@@ -1,5 +1,5 @@
 <template>
-  <RouterLink class="flex justify-center px-0.5 w-15 hover:text-gray-500 transition-all duration-300 ease-in-out"
+  <RouterLink class="flex justify-center px-0.5 text-lg xs:text-lg md:text-3xl hover:text-gray-500 transition-all duration-300 ease-in-out"
               :to="`/${text}`"
               @click="changePage(text)"
   >
