@@ -1,8 +1,8 @@
 <template>
-  <div class="group" @click="changePage(text)">
+  <div class="group pr-[2vw] lg:pl-[3vw] lg:pr-0" @click="changePage(text)">
     <RouterLink :to="`/${text}`" class="flex flex-row group">
       <span :class="[selectedPage === text ? 'opacity-100' : 'opacity-0',  'group-hover:opacity-100', 'transition-all duration-300 ease-in-out']">
-        >&nbsp; <!-- //&nbsp; -->
+        //  <!-- >&nbsp; -->
       </span>
       {{ text }}
     </RouterLink>
