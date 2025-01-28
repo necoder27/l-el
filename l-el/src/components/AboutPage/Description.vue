@@ -5,7 +5,7 @@
 <template>
   <div>
     <p class="text-xl lg:text-3xl lg:tracking-wider">
-      hi! my name is <span class="text-nowrap"><strong>Laetitia El Badry</strong></span> and i'm a computer science student at the technical university of vienna.
+      hi! my name is <span class="text-nowrap underline decoration-gray-500"><strong>Laetitia El Badry</strong></span> and i'm a computer science student at the technical university of vienna.
       prior to my pursuit of a bachelor's degree i graduated from the bilingual (german, english) class of the
       computer science department at htl spengergasse.<sup><a href="#footnoteHTL" class="text-gray-500">[1]</a></sup>
       i enjoy coding all kinds of things and like exploring and learning.
