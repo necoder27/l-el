@@ -11,12 +11,14 @@
       <LandingPageDivider />
     </div>
     <p class="text-7xl md:text-9xl">El Badry</p>
+    <LandingPageInfo />
   </div>
 </template>
 
 <script setup lang="ts">
 import LandingPageLink from "@/components/HomePage/LandingPageLink.vue";
 import LandingPageDivider from "@/components/HomePage/LandingPageDivider.vue";
+import LandingPageInfo from "@/components/HomePage/LandingPageInfo.vue";
 </script>
 
 <style scoped>
