@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {RouterView, useRoute} from 'vue-router'
+  import {RouterView, useRoute} from 'vue-router'
   import Navbar from "@/components/Navbar.vue";
-import {provide, ref, watch} from "vue";
+  import {provide, ref, watch} from "vue";
 
   const route = useRoute();
   const selectedPage = ref(route.path.split("/").pop() as string);
