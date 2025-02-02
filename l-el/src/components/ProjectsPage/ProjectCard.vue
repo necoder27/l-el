@@ -4,7 +4,7 @@
 
   defineProps<{
     title: string;
-    tags: string[];
+    tags?: string[];
     description: string;
     image?: IImage;
     links?: {
