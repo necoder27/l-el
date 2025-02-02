@@ -1,11 +1,11 @@
 <script setup lang="ts">
 
-import About from "@/components/AboutPage/About.vue";
+import AboutPage from "@/components/AboutPage/AboutPage.vue";
 </script>
 
 <template>
   <div>
-    <About />
+    <AboutPage />
   </div>
 </template>
 
