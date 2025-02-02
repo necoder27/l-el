@@ -30,9 +30,9 @@
 <template>
   <div class="flex flex-col items-center w-full xl:w-[65%]">
     <span class="text-xl lg:text-3xl w-full mb-5"><strong>skills</strong></span>
-    <div class="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-4 xl:grid-cols-3 gap-1 xl:gap-4 w-full">
+    <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-3 gap-1 xl:gap-4 w-full">
       <div v-for="item in skillItems" class="flex flex-nowrap items-center p-1 pl-0 text-lg lg:text-2xl rounded-md ">
-        <img :src="item.image" alt="" class="h-4 xs:h-5 lg:h-7 w-fit pr-1 lg:pr-3">
+        <img :src="item.image" alt="" class="h-4 xs:h-5 lg:h-7  pr-1 lg:pr-3">
         {{ item.name }}
       </div>
     </div>
