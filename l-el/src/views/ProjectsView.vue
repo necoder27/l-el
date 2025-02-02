@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
   import ProjectCard from "@/components/ProjectsPage/ProjectCard.vue";
-  import GitHubLogo from "@/assets/imgs/socials_logos/github-mark/github-mark-white.png";
+  import GitHubLogo from "@/assets/imgs/logos/github-mark/github-mark-white.png";
 </script>
 
 <style scoped>
