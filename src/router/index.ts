@@ -26,6 +26,9 @@ const router = createRouter({
       component: () => import('../views/CatView.vue'),
     },
   ],
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  },
 })
 
 export default router

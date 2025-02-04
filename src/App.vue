@@ -19,7 +19,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col h-screen overflow-x-hidden">
+  <div class="flex flex-col h-screen">
     <Navbar v-show="selectedPage != 'home' && selectedPage != ''" class="z-10" />
     <RouterView :class="[(selectedPage != 'home' && selectedPage != '') ? 'mt-20 md:mt-36' : 'mt-0']" class="z-0" />
   </div>
