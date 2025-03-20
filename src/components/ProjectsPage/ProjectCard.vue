@@ -35,12 +35,13 @@
           <img :src="l.image.path" class="h-5" :alt="l.image.alt">
         </a>
       </div>
-      <p :class="[expanded === title ? 'line-clamp-none' : 'line-clamp-6 lg:line-clamp-4', 'text-justify lg:text-ellipsis lg:overflow-hidden cursor-pointer']">
-        {{ description }}
+      <p :class="[expanded === title ? 'line-clamp-none' : 'line-clamp-6 lg:line-clamp-4', 'text-justify lg:text-ellipsis lg:overflow-hidden cursor-pointer']"
+         v-html="description"
+      >
       </p>
     </div>
     <div class="flex flex-wrap">
-      <div v-for="tag in tags" class="border border-gray-500 border-l-transparent border-t-transparent text-gray-500 px-2 py-1 rounded-md w-fit mr-2 mt-2 select-none">{{ tag }}</div>
+      <div v-for="tag in tags" class="border border-gray-500 border-l-transparent border-t-transparent text-gray-300 px-2 py-1 rounded-md w-fit mr-2 mt-2 select-none">{{ tag }}</div>
     </div>
   </div>
 </template>

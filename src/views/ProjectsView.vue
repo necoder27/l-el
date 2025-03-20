@@ -25,7 +25,7 @@
                  :tags="['java', 'vue.js', 'tailwindcss', 'typescript', 'css', 'python', 'css', 'html']"
                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
     />-->
-    <ProjectCard title="Coming Soon..." :tags="['example']" description="This page is still in development but projects will be added soon." />
+    <ProjectCard title="Netanol" :tags="['Nuxt.js', 'CSS', 'D3.js', 'Docker', 'Agile Project Management', 'Jira Kanban',]" description="<strong>Net</strong>(work)<strong>an</strong>(alyzer)(to)<strong>ol</strong> was my diploma project i worked on with four classmates. i was part of the frontend development team and wrote my diploma thesis about 'Visualization for Frontend and Graph-Based Data'." :links="[{image: {path: GitHubLogo, alt: 'Github Logo'}, link: 'https://github.com/TELBC/Netanol'}]" />
   </div>
 </template>
 
