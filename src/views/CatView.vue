@@ -8,6 +8,12 @@
       <div v-for="img in imgPaths" class="w-full lg:w-auto">
         <img :src="img.path" :alt="img.altText" class="lg:max-h-60 xl:max-h-80 w-full lg:w-auto my-2 rounded-sm shadow-lg shadow-[#171717]" />
       </div>
+      <video class="lg:max-h-60 xl:max-h-80 w-full lg:w-auto my-2 rounded-sm shadow-lg shadow-[#171717]" controls>
+        <source :src="catYawn">
+      </video>
+      <video class="lg:max-h-60 xl:max-h-80 w-full lg:w-auto my-2 rounded-sm shadow-lg shadow-[#171717]" controls>
+        <source :src="exposedStomach">
+      </video>
     </div>
   </div>
 </template>
@@ -25,6 +31,11 @@
   import cutestCat from "@/assets/imgs/catImgs/cutestCat.jpeg";
   import catSideProfile from "@/assets/imgs/catImgs/catSideProfile.jpeg";
   import sleepyCat from "@/assets/imgs/catImgs/sleepyCat.jpeg";
+  import catBedSun from "@/assets/imgs/catImgs/catOnBedInSunshine.jpeg";
+  import clingy from "@/assets/imgs/catImgs/catClingingToHand.jpeg";
+  import jumpingUpLeg from "@/assets/imgs/catImgs/catJumpingUpLeg.jpeg";
+  import catYawn from "@/assets/imgs/catImgs/catYawning.mov";
+  import exposedStomach from "@/assets/imgs/catImgs/catExposingStomachForPets.mov";
 
   interface paths {
     path: string;
@@ -44,6 +55,9 @@
     { path: cutestCat, altText: "cat cutely looking at camera"},
     { path: sleepyCat, altText: "sleepy cat" },
     { path: closeUpCatSleeping, altText: "close up of cat sleeping" },
+    { path: catBedSun, altText: "cat on bed in sunshine" },
+    { path: clingy, altText: "cat clinging to hand"},
+    { path: jumpingUpLeg, altText: "cat jumping up leg" },
   ]
 </script>
 
