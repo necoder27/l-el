@@ -4,9 +4,9 @@
       hi, i'm
       <span class="underline decoration-gray-500"><strong>Mistoffelees</strong></span>!
     </span>
-    <div class="flex flex-wrap p-8 pt-2 xl:pt-8 w-full select-none justify-between">
-      <div v-for="img in imgPaths" class="w-full xl:w-auto">
-        <img :src="img.path" :alt="img.altText" class="xl:max-h-80 w-full xl:w-auto my-4 rounded-sm shadow-lg shadow-[#171717]" />
+    <div class="flex flex-wrap gap-7 p-8 pt-2 xl:pt-8 w-full justify-center select-none"><!--flex flex-wrap justify-between-->
+      <div v-for="img in imgPaths" class="w-full lg:w-auto">
+        <img :src="img.path" :alt="img.altText" class="lg:max-h-60 xl:max-h-80 w-full lg:w-auto my-2 rounded-sm shadow-lg shadow-[#171717]" />
       </div>
     </div>
   </div>
@@ -36,14 +36,14 @@
     { path: catSleepingInBed, altText: "cat sleeping in bed adorably" },
     { path: rainbowCatPaw, altText: "cat paw with light rainbow:D" },
     { path: catSleepingInBed2, altText: "cat sleeping in bed 2" },
-    { path: closeUpCatSleeping, altText: "close up of cat sleeping" },
     { path: happyGat, altText: "smiling cat" },
     { path: catSleepingOnFloor, altText: "cat snoozing on the floor" },
     { path: catLookingOutWindow, altText: "cat looking out of a window" },
     { path: perfectBall, altText: "ball of cat" },
-    { path: cutestCat, altText: "cat cutely looking at camera"},
     { path: catSideProfile, altText: "cat side profile" },
+    { path: cutestCat, altText: "cat cutely looking at camera"},
     { path: sleepyCat, altText: "sleepy cat" },
+    { path: closeUpCatSleeping, altText: "close up of cat sleeping" },
   ]
 </script>
 
