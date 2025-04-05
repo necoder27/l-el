@@ -7,12 +7,13 @@
     />
     <ProjectCard title="Langton's Ant Visualization"
                  :tags="['Python', 'Pygame']"
-                 description="Simple visualization of Langton's ant with a random spawn position of the ant, more colors for movement, several color schemes, and diagonal movement."
+                 description="Simple visualization of Langton's ant with a random spawn position of the ant, more colors for movement, several color schemes, warping around window edges, and diagonal movement."
                  :links="[{image: {path: GitHubLogo, alt: 'Github Link'}, link: 'https://github.com/necoder27/langtons-ant'}]"
     />
     <ProjectCard title="WIP - tabby"
                  :tags="['Python', 'FastAPI', 'Vue.js', 'TypeScript', 'CSS']"
-                 description="Dashboard for new browser tabs because I like data. Planned features: greeting, weather, os info, etc."
+                 description="Dashboard for new browser tabs because I like data and the default ones are boring. Planned features: greeting, weather, os info, etc."
+                 :links="[{image: {path: GitHubLogo, alt: 'Github Link'}, link: 'https://github.com/necoder27/tabby'}]"
     />
   </div>
 </template>
