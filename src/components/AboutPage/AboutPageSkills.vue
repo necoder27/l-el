@@ -7,6 +7,7 @@
   import JavaScriptLogo from "@/assets/imgs/logos/JavaScript-logo.png";
   import PythonLogo from "@/assets/imgs/logos/python-logo-only.png";
   import FastAPILogo from "@/assets/imgs/logos/fastapi.png";
+  import FlaskLogo from "@/assets/imgs/logos/flask_logo.png";
   import PyTorchLogo from "@/assets/imgs/logos/pytorch-logo.png";
   import JavaLogo from "@/assets/imgs/logos/Java-Logo.png";
   import MySQLLogo from "@/assets/imgs/logos/logo-mysql-170x115.png";
@@ -25,7 +26,8 @@
     { name: "JavaScript", image: JavaScriptLogo},
     { name: "Python", image: PythonLogo},
     { name: "FastAPI", image: FastAPILogo},
-    { name: "PyTorch", image: PyTorchLogo},
+    { name: "Flask", image: FlaskLogo},
+    //{ name: "PyTorch", image: PyTorchLogo},
     { name: "Java", image: JavaLogo},
     { name: "MySQL", image: MySQLLogo},
   ]
