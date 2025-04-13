@@ -7,12 +7,12 @@
     />
     <ProjectCard title="tabby"
                  :tags="['Python', 'FastAPI', 'Vue.js', 'TypeScript', 'CSS', 'launchd']"
-                 description="tabby is a dashboard for new browser tabs featuring a greeting, weather, system info, etc. To display it, I wrote two launchd agents that start the API and Vue.js app on boot and made my browser open the localhost link on every new tab. As an alias for localhost, I added 'tabby.dashboard' and bound the app to a custom port to avoid conflicts."
+                 description="tabby is a dashboard for new browser tabs featuring a greeting, weather, system info, etc. to display it, i wrote two launchd agents that start the api and vue.js app on boot and made my browser open the localhost link on every new tab. as an alias for localhost, i added 'tabby.dashboard' and bound the app to a custom port to avoid conflicts."
                  :links="[{image: {path: GitHubLogo, alt: 'Github Link'}, link: 'https://github.com/necoder27/tabby'}]"
     />
     <ProjectCard title="Langton's Ant Visualization"
                  :tags="['Python', 'Pygame']"
-                 description="Simple visualization of Langton's ant with a random spawn position of the ant, more colors for movement, several color schemes, warping around window edges, and diagonal movement."
+                 description="simple visualization of langton's ant with a random spawn position of the ant, more colors for movement, several color schemes, warping around window edges, and diagonal movement."
                  :links="[{image: {path: GitHubLogo, alt: 'Github Link'}, link: 'https://github.com/necoder27/langtons-ant'}]"
     />
   </div>
