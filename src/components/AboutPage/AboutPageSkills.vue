@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import VueJSLogo from "@/assets/imgs/logos/vuejs.png";
+  import ReactLogo from "@/assets/imgs/logos/React-icon.png";
   import HTMLLogo from "@/assets/imgs/logos/256px-HTML5_Badge.svg.png";
   import CSSLogo from "@/assets/imgs/logos/256px-CSS3_logo.svg.png";
   import TailwindCSSLogo from "@/assets/imgs/logos/tailwindcss-mark.d52e9897.svg"
@@ -19,6 +20,7 @@
 
   const skillItems: ISkillItem[] = [
     { name: "Vue.js", image: VueJSLogo},
+    { name: "React", image: ReactLogo},
     { name: "HTML", image: HTMLLogo},
     { name: "CSS", image: CSSLogo},
     { name: "TailwindCSS", image: TailwindCSSLogo},
