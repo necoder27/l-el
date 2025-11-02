@@ -5,7 +5,7 @@
 <template>
   <div>
     <p class="text-xl lg:text-3xl lg:tracking-wider">
-      hey there! my name is <span class="text-nowrap underline decoration-gray-500"><strong>Laetitia El Badry</strong></span> and i'm a soon-to-be artificial intelligence student at johannes kepler university linz.
+      hey there! my name is <span class="text-nowrap underline decoration-gray-500"><strong>Laetitia El Badry</strong></span> and i'm a software engineer at pwc and an artificial intelligence student at johannes kepler university linz.
       prior to my pursuit of a bachelor's degree i graduated from the bilingual (german, english) class of the
       computer science department at htl spengergasse.<sup><a href="#footnoteHTL" class="text-gray-500">[1]</a></sup>
       after finishing school i started studying computer science at the technical university of vienna but after completing a few courses i
